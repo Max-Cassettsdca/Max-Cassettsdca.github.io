@@ -1,0 +1,35 @@
+h1 {
+    color: blue;
+    padding: 0 2em;
+    background-color: bisque;
+    border: 0.5em;
+    margin: 3em;
+    font-family: 'Times New Roman';
+    font-size: 3em;
+    font-weight: 100;
+}
+
+h3 {
+    color: black;
+    background-color: bisque;
+    padding: 0 2em;
+    border: 0.5em red;
+    font-family: Verdana;
+    margin: 3em;
+}
+
+p {
+    color: black;
+}
+
+.Revival {
+    color: navy;
+    background-color: blueviolet;
+    padding: 1em 2em;
+}
+
+.Purgatory {
+    color: red;
+    background-color: brown;
+    padding: 1em 2em;
+}
