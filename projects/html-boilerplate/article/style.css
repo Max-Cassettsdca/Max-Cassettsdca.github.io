@@ -1,25 +1,28 @@
 h1 {
     color: blue;
     padding: 0 2em;
-    background-color: bisque;
+    background-color: rgb(182, 136, 80);
     border: 0.5em;
-    margin: 3em;
+    margin: 1em;
     font-family: 'Times New Roman';
     font-size: 3em;
     font-weight: 100;
+    text-align: center;
 }
 
 h3 {
     color: black;
     background-color: bisque;
-    padding: 0 2em;
+    padding: 2em;
     border: 0.5em red;
     font-family: Verdana;
     margin: 3em;
+    text-align: center;
 }
 
 p {
     color: black;
+    text-align: center;
 }
 
 .Revival {
@@ -32,4 +35,13 @@ p {
     color: red;
     background-color: brown;
     padding: 1em 2em;
+}
+
+section {
+    background-color: beige;
+    padding: 2em;
+}
+
+ul {
+    padding: 1em;
 }
