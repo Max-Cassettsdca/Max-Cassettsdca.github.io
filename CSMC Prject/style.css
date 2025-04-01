@@ -1,0 +1,29 @@
+p {
+    text-align: center;
+    margin: 1em;
+}
+
+.victor {
+    text-align: center;
+    margin-right: 1em;
+    padding: .5em;
+}
+
+.romeo {
+    text-align: center;
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+}
+
+.juliet {
+    align-items: center;
+}
+
+img {
+    padding-left: 1em;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
