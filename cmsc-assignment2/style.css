@@ -1,0 +1,90 @@
+body {
+    padding: 25px;
+}
+
+.title {
+    color: #5C6AC4;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+h2,
+h3,
+p {
+    margin-left: auto;
+    width: 70%;
+}
+
+h3 {
+    color: black;
+    background-color: goldenrod;
+    padding: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    text-align: center;
+}
+
+img {
+    margin-left: auto;
+    border: 5px solid black;
+}
+
+.mary {
+    padding: 0 10px 0 10px;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.header {
+    padding: 10px;
+    margin: 100px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-top: 100px;
+    margin-bottom: 75px;
+}
+
+#header-img {
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-button {
+    background-color: rgb(128, 62, 142);
+    text-align: center;
+    font-size: medium;
+    padding: 5px;
+    margin: 5px 5px 0 40px;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 100%;
+}
+
+.header-button button {
+    color: rgb(244, 16, 16);
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+#header-left {
+    width: 50%;
+}
+
+#header-right {
+    width: 55%;
+}
