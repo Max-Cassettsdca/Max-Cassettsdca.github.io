@@ -1,0 +1,66 @@
+header {
+    color: white;
+    background-color: black;
+    align-items: center;
+}
+
+header img {
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+}
+
+.top-img {
+    padding: 1em 0;
+}
+
+.top-bar {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.home {
+    padding: 1em;
+}
+
+.volunteer {
+    padding: 1em;
+}
+
+.foster {
+    padding: 1em;
+}
+
+.adopt {
+    padding: 1em;
+}
+
+.donate {
+    padding: 1em;
+}
+
+/* .portion-two {
+    display: flex;
+    align-items: center;
+      justify-content: center;
+    padding: 50px;
+} */
+
+.blurb {
+    padding: 50px;
+}
+
+.mary{
+    justify-content: center;
+    text-align: center;
+}
+
+.vape{
+justify-content: center;
+text-align: center;
+width: 20px;
+
+}

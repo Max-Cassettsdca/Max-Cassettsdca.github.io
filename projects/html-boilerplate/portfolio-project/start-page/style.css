@@ -1,0 +1,59 @@
+.top-bar {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size:x-large;
+    width: 100%;
+}
+
+.portfolio, .resume, .bio {
+    display: flex;
+    margin: 3em;
+    border: 1px solid black;
+    border-color: black;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.cool-bar{
+    border: 1px solid black ;
+    align-items: center;
+    min-height: 500px;
+    position: relative;
+    margin-left: 3em;
+    margin-left: 3em
+}
+
+.cool-bar .row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.cool-bar .col-md-4 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items:baseline;
+    margin-left: 3em;
+}
+
+.cool-bar .col-md-8 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;  /* Align image container to the right */
+    align-items: center;        /* Vertical centering */
+}
+
+.cool-bar img {
+    max-width: 100%;
+    max-height: 500px;
+    height: auto;
+    width: auto;
+    margin-right: 3em;  /* Add some space from the right edge */
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 5px solid black;
+}

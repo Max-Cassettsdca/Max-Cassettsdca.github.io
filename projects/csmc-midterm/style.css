@@ -6,16 +6,6 @@
     justify-content: center;
 }
 
-.alfa-slab-one-regular {
-    font-family: "Alfa Slab One", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-#henry {
-    border: 4px dashed royalblue;
-}
-
 .flexbox-item {
     background-color: brown;
     border: 5px solid red;
@@ -27,6 +17,17 @@
     padding: 10px;
     flex-direction: column;
     margin: 10px;
+}
+
+
+.alfa-slab-one-regular {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#henry {
+    border: 4px dashed royalblue;
 }
 
 .flexbox-item:hover {

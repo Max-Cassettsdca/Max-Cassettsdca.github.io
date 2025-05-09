@@ -1,0 +1,57 @@
+.flex-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid palevioletred;
+}
+
+.flexbox-item1 {
+    background-color: brown;
+    border: 5px solid red;
+    text-align: left;
+    min-height: 100px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.flexbox-item2{
+
+}
+
+#henry {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+#robbery {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 50px;
+
+}
+
+#arson {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 60px;
+}
+
+
+img {
+    border: 5px solid black;
+    height: auto;
+    max-width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
