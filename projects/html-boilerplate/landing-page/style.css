@@ -56,7 +56,7 @@ header img {
     margin: 4em 0 0 0;
 }
 
-.text-square {
+.txt-square {
     flex: 1 1 400px;
     max-width: 800px;
     min-width: 600px;
@@ -109,9 +109,9 @@ header img {
 }
 
 .doge-box {
-    flex: 1 1 500px;
+    flex: 1 1 400px;
     max-width: 700px;
-    min-width: 300px;
+    min-width: 200px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@ header img {
     min-width: 600px;
     height: auto;
     display: block;
-    margin: 2em;
+    margin: 1em;
 }
 
 @media (max-width: 900px) {
