@@ -1,6 +1,16 @@
 header {
     position: relative;
     text-align: center;
+    background-image: url("/images/restaurant.jpg");
+    background-size: 1000px;
+    height: 800px;
+    color: white;
+    justify-content: center;
+}
+
+body, h1, h2, h3, p, a {
+    font-family: 'Rubik', Arial, sans-serif;
+    font-weight: 100;
 }
 
 .centered-text {
@@ -9,3 +19,79 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+img {
+    width: 600px;
+    height: auto;
+    display: inline;
+}
+
+a:link {
+    color: #d2691e;
+}
+
+.big{
+    width: 100%;  
+  height: auto;     
+  display: block;   
+  margin: 0 auto;   
+  max-width: 100%;  
+}
+
+
+.arthur {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 5em 3em 5em 3em;
+    font-size: 4vw;
+}
+
+.section-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5em 15em 5em 15em;
+    font-size: 14px;
+    
+}
+
+.roger{
+    text-align: center; 
+    font-size: 5vw; 
+    color: rgb(0, 0, 0);
+}
+
+.flebox-container{
+    display: flex;
+}
+
+.container-fluid {
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+
+/* I had to consult the internet for help with this ane this what i have. essesmtially it seperates everything the same way i imagine a fluid container would but it sees a lot less complicated */
+
+.img-text {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    align-items: center;
+    gap: 1em;
+    margin: 2em 0;
+    font-size: 3vw;
+}
+
+
+.img-text img {
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    margin: 4em 12em 4em 12em;
+    font-size: 3vw;
+}
+

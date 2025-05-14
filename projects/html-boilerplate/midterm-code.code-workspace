@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "midterm-code"
+		},
+		{
+			"path": "portfolio-project"
+		},
+		{
+			"path": "landing-page"
+		},
+		{
+			"path": "midterm-test"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "midterm-test"
+	}
+}

@@ -1,0 +1,43 @@
+header {
+  position: relative;
+  text-align: center;
+  background-image: url("/images/restaurant.jpg");
+  height: 800px;
+  color: white;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.graphics-row {
+  display: flex;
+  width: 100%;
+  margin: 2em 0;
+}
+
+.graphics-charts {
+  flex: 0 0 75%;
+  /* 9 columns out of 12 is 75% */
+  max-width: 75%;
+  padding-right: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graphics-charts img {
+  max-width: 100%;
+  height: auto;
+}
+
+.graphics-text {
+  flex: 0 0 25%;
+  /* 3 columns out of 12 is 25% */
+  max-width: 25%;
+  display: flex;
+  align-items: center;
+}

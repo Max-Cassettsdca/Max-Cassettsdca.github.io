@@ -1,0 +1,204 @@
+header {
+    position: relative;
+    text-align: right;
+    background-image: url("https://sdmntpreastus.oaiusercontent.com/files/00000000-9b9c-61f9-97e5-2c23d47a731d/raw?se=2025-05-13T23%3A59%3A16Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-13T20%3A33%3A21Z&ske=2025-05-14T20%3A33%3A21Z&sks=b&skv=2024-08-04&sig=kE5q7nT2ocI6fow5uCDrOPCIJoVbZYi4fgT06bnVYFs%3D");
+    background-color: #0D1F44;
+    background-size: contain;
+    background-position: center;
+    height: 600px;
+    color: rgb(241, 239, 239);
+    text-decoration: 2em solid black;
+    font-size: 20px;
+}
+
+.right-text {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-10%, -20%);
+}
+
+#h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6vw;
+}
+
+p {
+    font-size: 4vw;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+/*Batman Name Section*/
+
+.thomas {
+    background-color: black;
+    padding: 3em 5em;
+    color: white;
+}
+
+.thomas p::first-letter {
+    font-size: 2.5em;
+    font-weight: bold;
+    float: left;
+    line-height: .1;
+    color: white;
+}
+
+.martha {
+    background-color: tan;
+    padding: 3em 5em;
+    color: black;
+}
+
+.martha p::first-letter {
+    font-size: 2.5em;
+    font-weight: bold;
+    float: left;
+    line-height: .1;
+    color: black;
+}
+
+.batman {
+    width: 100%;
+    margin: 0 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+.bruce {}
+
+
+/*Image Section */
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0;
+    margin: 0;
+}
+
+.image-container {
+    position: relative;
+    flex: 1 1 0;
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.image-container {
+    position: relative;
+    flex: 1 1 0;
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.bottom-left-caption {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+    padding: 4px 12px;
+    font-size: 1em;
+    border-radius: 4px;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1500px) {
+    .image-row {
+        flex-direction: column;
+    }
+
+    .image-container {
+        margin-bottom: 0;
+    }
+
+    .image-container:not(:last-child) {
+        margin-bottom: 0.5em;
+    }
+}
+
+/*That ridiculous chart section */
+
+.chart-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 6em 0;
+}
+
+.chart-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1vw;
+    width: 100vw;
+    max-width: none;
+}
+
+.chart-col {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    max-width: none;
+}
+
+.responsive-iframe {
+    width: 40vw;
+    min-width: 300px;
+    max-width: none;
+    aspect-ratio: 16 / 9;
+    border: none;
+    display: block;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+@media (max-width: 900px) {
+    .chart-row {
+        flex-direction: column;
+        gap: 2vw;
+        width: 98vw;
+    }
+
+    .chart-col {
+        max-width: 98vw;
+    }
+
+    .responsive-iframe {
+        width: 90vw;
+        min-width: 0;
+        max-width: 100vw;
+    }
+}
+
+/*footer part*/
+.footer-bg {
+    width: 100vw;
+    height: 600px;
+    background-image: url("https://pplx-res.cloudinary.com/image/upload/v1747002387/gpt4o_images/c33lynzspvpfca0sevoc.png");
+    background-color: #0D1F44;
+    background-size: contain;
+    background-position: center;
+}

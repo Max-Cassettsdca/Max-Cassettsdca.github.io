@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../midterm-test"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "midterm-code"
+	}
+}

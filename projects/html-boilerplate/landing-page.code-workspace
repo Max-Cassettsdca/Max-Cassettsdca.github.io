@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "landing-page"
+		},
+		{
+			"path": "portfolio-project"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html-boilerplate"
+	}
+}
