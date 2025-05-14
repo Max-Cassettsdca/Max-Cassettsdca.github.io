@@ -8,7 +8,12 @@ header {
     justify-content: center;
 }
 
-body, h1, h2, h3, p, a {
+body,
+h1,
+h2,
+h3,
+p,
+a {
     font-family: 'Rubik', Arial, sans-serif;
     font-weight: 100;
 }
@@ -30,12 +35,12 @@ a:link {
     color: #d2691e;
 }
 
-.big{
-    width: 100%;  
-  height: auto;     
-  display: block;   
-  margin: 0 auto;   
-  max-width: 100%;  
+.big {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 
@@ -47,22 +52,22 @@ a:link {
     font-size: 4vw;
 }
 
-.section-container{
+.section-container {
     background-color: black;
     color: white;
     text-align: center;
     padding: 5em 15em 5em 15em;
     font-size: 14px;
-    
+
 }
 
-.roger{
-    text-align: center; 
-    font-size: 5vw; 
+.roger {
+    text-align: center;
+    font-size: 5vw;
     color: rgb(0, 0, 0);
 }
 
-.flebox-container{
+.flebox-container {
     display: flex;
 }
 
@@ -70,7 +75,7 @@ a:link {
     width: 100%;
     margin: 0px;
     box-sizing: border-box;
-  }
+}
 
 
 /* I had to consult the internet for help with this ane this what i have. essesmtially it seperates everything the same way i imagine a fluid container would but it sees a lot less complicated */
@@ -90,8 +95,7 @@ a:link {
     height: auto;
 }
 
-footer{
+footer {
     margin: 4em 12em 4em 12em;
     font-size: 3vw;
 }
-
