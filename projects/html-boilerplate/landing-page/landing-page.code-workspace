@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../midterm-code"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "landing-page"
+	}
+}

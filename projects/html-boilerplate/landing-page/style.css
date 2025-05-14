@@ -2,6 +2,7 @@ header {
     color: white;
     background-color: black;
     align-items: center;
+    gap: 0;
 }
 
 header img {
@@ -11,7 +12,7 @@ header img {
 }
 
 .top-img {
-    padding: 1em 0;
+    padding: 0;
 }
 
 .top-bar {
@@ -20,47 +21,134 @@ header img {
     align-items: center;
     justify-content: center;
     background-color: black;
+    gap: 0;
 }
 
-.home {
-    padding: 1em;
-}
-
-.volunteer {
-    padding: 1em;
-}
-
-.foster {
-    padding: 1em;
-}
-
-.adopt {
-    padding: 1em;
-}
-
+.home,
+.volunteer,
+.foster,
+.adopt,
 .donate {
     padding: 1em;
 }
-
-/* .portion-two {
-    display: flex;
-    align-items: center;
-      justify-content: center;
-    padding: 50px;
-} */
 
 .blurb {
     padding: 50px;
 }
 
-.mary{
+.mary {
     justify-content: center;
     text-align: center;
 }
 
-.vape{
-justify-content: center;
-text-align: center;
-width: 20px;
+.vape {
+    justify-content: center;
+    text-align: center;
+    width: 20px;
+}
 
+.coconut-flexbox {
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 4em 0 0 0;
+}
+
+.text-square {
+    flex: 1 1 400px;
+    max-width: 800px;
+    min-width: 600px;
+    font-size: 30px;
+    margin: 3em;
+}
+
+.img-square {
+    flex: 1 1 400px;
+    max-width: 800px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+}
+
+.img-square img {
+    width: 100%;
+    height: auto;
+    display: block;
+    min-width: 700px;
+}
+
+@media (max-width: 900px) {
+    .coconut-flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-square {
+        max-width: none;
+        min-width: 400vw;
+    }
+
+    .img-square {
+        max-width: 900px;
+        min-width: 700px;
+    }
+}
+
+.doge-flexbox {
+    display: flex;
+    gap: 4em;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 6em;
+    font-size: 50px;
+}
+
+.doge-box {
+    flex: 1 1 500px;
+    max-width: 700px;
+    min-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doge-box img {
+    width: 100%;
+    max-width: 700px;
+    min-width: 600px;
+    height: auto;
+    display: block;
+    margin: 2em;
+}
+
+@media (max-width: 900px) {
+    .doge-flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .doge-box {
+        max-width: 600px;
+    }
+
+    .doge-box img {
+        max-width: 700px;
+        min-width: 400px;
+        margin: 2em;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding: 40px;
+    margin-top: 4em;
 }
