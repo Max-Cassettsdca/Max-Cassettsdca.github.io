@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Csmc Final Project"
+		},
+		{
+			"path": "html-boilerplate/article"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "article"
+	}
+}
