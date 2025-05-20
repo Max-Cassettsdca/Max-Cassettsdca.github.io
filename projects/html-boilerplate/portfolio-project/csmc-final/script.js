@@ -2,26 +2,26 @@
 document.addEventListener('DOMContentLoaded', () => {
     const toggleButton = document.getElementById('modeToggleBtn');
     if (toggleButton) {
-      toggleButton.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-        if (document.body.classList.contains('dark-mode')) {
-          toggleButton.textContent = 'Switch to Light Mode';
-        } else {
-          toggleButton.textContent = 'Switch to Dark Mode';
-        }
-      });
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            if (document.body.classList.contains('dark-mode')) {
+                toggleButton.textContent = 'Switch to Light Mode';
+            } else {
+                toggleButton.textContent = 'Switch to Dark Mode';
+            }
+        });
     }
-  
+
     // Fun Facts toggle logic
-    document.getElementById('factQuestionForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-  
-      const answer = document.getElementById('answerInput').value.trim().toLowerCase();
-      const container = document.getElementById('funFactsContainer');
-  
-      if (answer === 'blue pill') {
-        // Show "Blue Pill" facts
-        container.innerHTML = `
+    document.getElementById('factQuestionForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const answer = document.getElementById('answerInput').value.trim().toLowerCase();
+        const container = document.getElementById('funFactsContainer');
+
+        if (answer === 'blue pill') {
+            // Show "Blue Pill" facts
+            container.innerHTML = `
           <table class="cool-kid-table">
             <tbody>
               <tr>

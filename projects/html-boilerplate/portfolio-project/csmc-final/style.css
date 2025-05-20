@@ -15,7 +15,7 @@ body {
     padding: 10px;
     flex: 600px;
     min-width: 100px;
-    
+
 }
 
 img {
@@ -44,75 +44,75 @@ h3 {
     margin-left: 50px;
 }
 
-.maniac{
+.maniac {
     display: block;
     justify-content: center;
     flex-wrap: nowrap;
 
 }
 
-.tom{
+.tom {
     margin: 10px auto;
     align-content: center;
     text-align: center;
 }
 
-.conan{
-        border: none;            
-        height: 100px;          
-        background-color: #f78104;
-        width: 100%;            
-        margin: 20px 0;          
-      
+.conan {
+    border: none;
+    height: 100px;
+    background-color: #f78104;
+    width: 100%;
+    margin: 20px 0;
+
 }
 
-.roar{
+.roar {
     font-size: 80px;
-    margin-top: 40px; 
+    margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 20px;
 }
 
-h1{
-   font-family: "Rubik", sans-serif;
+h1 {
+    font-family: "Rubik", sans-serif;
 }
 
-p{
+p {
     font-family: "Oswald", sans-serif;
 }
 
-#bart{
+#bart {
     text-align: center;
     justify-content: center;
     font-size: 80px;
-    margin-top: 10px; 
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
 }
 
 .cool-kid-table {
     width: 100%;
-    border-collapse: collapse; 
+    border-collapse: collapse;
     margin: 20px 0;
     font-family: Arial, sans-serif;
-  }
-  
-  .cool-kid-table thead th {
+}
+
+.cool-kid-table thead th {
     background-color: orange;
     color: black;
     padding: 12px;
     text-align: left;
-  }
-  
-  .cool-kid-table tbody td {
+}
+
+.cool-kid-table tbody td {
     padding: 12px;
     border: 1px solid black;
-  }
-  
-  .cool-kid-table tbody tr:hover {
+}
+
+.cool-kid-table tbody tr:hover {
     background-color: yellow;
-  }
-  
+}
+
 
 
 /*Dark Mode stuff
@@ -120,22 +120,26 @@ p{
 body.dark-mode {
     background-color: black;
     color: white;
-  }
-  
-body.dark-mode h1, body.dark-mode h3, body.dark-mode p {
+}
+
+body.dark-mode h1,
+body.dark-mode h3,
+body.dark-mode p {
     color: white;
-  }
+}
+
 body.dark-mode img {
     border-color: white;
-  }
+}
+
 body.dark-mode .cool-kid-table thead th {
     background-color: purple;
     color: white;
-  }
-  
+}
+
 body.dark-mode .cool-kid-table tbody tr:hover {
     background-color: purple;
-  }
+}
 
 body.dark-mode .conan {
     background-color: purple;
@@ -146,12 +150,12 @@ body.dark-mode #travel {
 }
 
 
-link{
+link {
     color: aquamarine;
 }
 
-link:hover{
-    color: red; 
+link:hover {
+    color: red;
 }
 
 #travel {
@@ -160,35 +164,35 @@ link:hover{
     padding: 20px;
     background-color: #f0e6d2;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
-  
-  
-  #travel h2 {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#travel h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 20px;
     color: #333;
-  }
-  
-  
-  .travel-wrapper {
+}
+
+
+.travel-wrapper {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around; 
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 20px;
-  }
-  
-  
-  .region {
-    flex: 1 1 250px; 
+}
+
+
+.region {
+    flex: 1 1 250px;
     min-width: 200px;
     max-width: 350px;
     padding: 15px;
     border-radius: 8px;
     margin-left: 40px;
     margin-right: 40px;
-  }
+}
 
-  .region h
+.region h
