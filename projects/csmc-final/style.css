@@ -117,19 +117,61 @@ p {
 
 /*Dark Mode stuff
 /* Dark mode styles */
+/* Table base styles */
+.cool-kid-table,
+.cool-kid-table td,
+.cool-kid-table th {
+    background-color: rgb(230, 200, 160); /* match body */
+    color: black;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+/* Table header */
+.cool-kid-table thead th {
+    background-color: orange;
+    color: black;
+}
+
+/* Table cell hover effect */
+.cool-kid-table td:hover, .cool-kid-table th:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* Remove row striping and row hover */
+.cool-kid-table tr,
+.cool-kid-table tr:nth-child(odd),
+.cool-kid-table tr:hover {
+    background-color: rgb(230, 200, 160) !important;
+}
+
+/* Red pill and blue pill table styles */
+table.red-pill-table td:first-child {
+    font-weight: bold;
+    background-color: rgb(230, 200, 160);
+    color: #990000;
+}
+
+table.blue-pill-table td:first-child {
+    font-weight: bold;
+    background-color: rgb(230, 200, 160);
+    color: #004085;
+}
+
+/* Dark mode styles */
 body.dark-mode {
     background-color: black;
     color: white;
 }
 
-body.dark-mode h1,
-body.dark-mode h3,
-body.dark-mode p {
+body.dark-mode .cool-kid-table,
+body.dark-mode .cool-kid-table td,
+body.dark-mode .cool-kid-table th {
+    background-color: black;
     color: white;
-}
-
-body.dark-mode img {
-    border-color: white;
+    border: 1px solid white;
 }
 
 body.dark-mode .cool-kid-table thead th {
@@ -137,26 +179,22 @@ body.dark-mode .cool-kid-table thead th {
     color: white;
 }
 
-body.dark-mode .cool-kid-table tbody tr:hover {
-    background-color: purple;
+body.dark-mode .cool-kid-table td:hover,
+body.dark-mode .cool-kid-table th:hover {
+    background-color: white;
+    color: black;
 }
 
-body.dark-mode .conan {
-    background-color: purple;
+body.dark-mode table.red-pill-table td:first-child {
+    background-color: black;
+    color: #ffcccc;
 }
 
-body.dark-mode #travel {
-    background-color: purple;
+body.dark-mode table.blue-pill-table td:first-child {
+    background-color: black;
+    color: #cce5ff;
 }
 
-
-link {
-    color: aquamarine;
-}
-
-link:hover {
-    color: red;
-}
 
 #travel {
     margin: 40px auto;

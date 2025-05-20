@@ -1,16 +1,16 @@
 // Toggle dark/light mode
 document.addEventListener('DOMContentLoaded', () => {
-    const toggleButton = document.getElementById('modeToggleBtn');
-    if (toggleButton) {
-        toggleButton.addEventListener('click', () => {
-            document.body.classList.toggle('dark-mode');
-            if (document.body.classList.contains('dark-mode')) {
-                toggleButton.textContent = 'Switch to Light Mode';
-            } else {
-                toggleButton.textContent = 'Switch to Dark Mode';
-            }
-        });
-    }
+  const toggleButton = document.getElementById('modeToggleBtn');
+  if (toggleButton) {
+      toggleButton.addEventListener('click', () => {
+          document.body.classList.toggle('dark-mode');
+          if (document.body.classList.contains('dark-mode')) {
+              toggleButton.textContent = 'Switch to Light Mode';
+          } else {
+              toggleButton.textContent = 'Switch to Dark Mode';
+          }
+      });
+  }
 
     // Fun Facts toggle logic
     document.getElementById('factQuestionForm').addEventListener('submit', function (e) {
