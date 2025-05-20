@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../test-file"
+		},
+		{
+			"path": "../port-page"
+		},
+		{
+			"path": "../bio-page"
+		},
+		{
+			"path": "../start-page"
+		},
+		{
+			"path": "../resume-page"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "csmc-final"
+	}
+}

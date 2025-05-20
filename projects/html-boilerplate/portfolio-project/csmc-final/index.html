@@ -104,33 +104,45 @@
 <div class="conan"></div>
 
 <section>
-<!--This is the fun facts section-->
-<section class="flexbox-container" id="henry">
-    <div id="bart">
-        <div>
-            <h1>The Oversharing Portion</h1>
-        </div>
-        <div>
-            <p>
-                You've reached the portion of my biography page where you get to choose how well you want to
-                get to know me. You are prompted with a choice. You can either take the <strong>Red Pill</strong> and 
-                get the good, normal, everyday information. Or.... you can take the <strong>Blue Pill</strong> and travel into
-                my mind, a place that I'm even scared of. You will be getting the deluxe on my thoughts.
-                Choose at your own discretion.
-            </p>
-        </div>
-    </div>
-    
-    <form id="factQuestionForm">
-        <label for="answerInput">Type "Red Pill" or "Blue Pill":</label>
-        <input type="text" id="answerInput" required />
-        <button type="submit">Submit</button>
-    </form>
 
+    <section class="flexbox-container" id="henry">
+        <div id="bart">
+            <div class="flexbox-item1">
+                <div class="flexbox-item1">
+                    <div>
+                        <h1>
+                            The Oversharing Portion
+                        </h1>
+                    </div>
+                    <div>
+                        <p>
+                            You've reached the portion of my biography page where you get to choose how well you want to
+                            to get to know me. You are prompted with a choice. You can either stay on the current and
+                            get the good, normal, everday information. Or.... you can take the blue pill and travel into
+                            my mind, a place that I'm even scared of. You will be getting the deluxe on my thoughts.
+                            Choose at your own discretion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="funFactsContainer">
+            <!-- This will be dynamically filled by JS -->
+            <!-- Initially empty -->
+        </div>
+        <!-- Input form to type "Red Pill" or "Blue Pill" -->
+        <form id="factQuestionForm" style="text-align: center; margin-top: 20px;">
+            <label for="answerInput">Type "Red Pill" or "Blue Pill":</label>
+            <input type="text" id="answerInput" required />
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+        </div>
+        </div>
+        </div>
         <div class="flexbox-item1">
             <div id="factsContainer">
                 <table id="factsTable" class="cool-kid-table">
-                    <!--I want the cool kids table to be the red pill and my other table to be the blue pill-->
                     <tbody>
                         <tr>
                             <td>Favorite Color</td>
