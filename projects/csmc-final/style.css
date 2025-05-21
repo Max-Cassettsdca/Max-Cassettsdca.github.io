@@ -156,15 +156,16 @@ body.dark-mode .cool-kid-table th {
     color: white;
     border: 1px solid white;
 }
+
+body.dark-mode #travel {
+    background-color: #2d014d; /* deep/dark purple */
+}
+
 body.dark-mode .cool-kid-table thead th {
     background-color: purple;
     color: white;
 }
-body.dark-mode .cool-kid-table td:hover,
-body.dark-mode .cool-kid-table th:hover {
-    background-color: white;
-    color: black;
-}
+
 body.dark-mode table.red-pill-table td:first-child {
     background-color: black;
     color: #ffcccc;
@@ -174,6 +175,15 @@ body.dark-mode table.blue-pill-table td:first-child {
     color: #cce5ff;
 }
 
+body.dark-mode .cool-kid-table td:hover,
+body.dark-mode .cool-kid-table th:hover {
+    background-color: purple;
+    color: white;
+}
+
+body.dark-mode .conan {
+    background-color: purple;
+}
 
 /*Travel Stuff*/
 #travel {
@@ -221,8 +231,8 @@ body.dark-mode table.blue-pill-table td:first-child {
 }
 button {
     padding: 8px 16px;
-    background-color: #4285f4;
-    color: white;
+    background-color: black;
+    color: rgb(255, 5, 5);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -281,8 +291,10 @@ body.dark-mode table.blue-pill-table td:first-child {
 
 /*The Dark Mode Button*/
 #modeToggleBtn {
+    position: fixed;
     top: 20px;
     right: 20px;
+    z-index: 1000; /* keeps it above other elements */
 }
 
 
