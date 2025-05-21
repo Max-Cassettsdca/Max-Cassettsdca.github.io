@@ -1,4 +1,3 @@
-
 /*the body and such*/
 body {
     background-color: rgb(230, 200, 160);
@@ -11,14 +10,17 @@ p {
     margin-right: 10px;
     font-size: 30px;
 }
+
 h3 {
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 50px;
 }
+
 h1 {
     font-family: "Rubik", sans-serif;
 }
+
 p {
     font-family: "Oswald", sans-serif;
 }
@@ -46,6 +48,7 @@ img {
     width: 100%;
     max-width: 2000px;
 }
+
 .flexbox-item1 {
     padding: 10px;
     flex: 600px;
@@ -60,11 +63,13 @@ img {
     justify-content: center;
     flex-wrap: nowrap;
 }
+
 .tom {
     margin: 10px auto;
     align-content: center;
     text-align: center;
 }
+
 .conan {
     border: none;
     height: 100px;
@@ -72,23 +77,141 @@ img {
     width: 100%;
     margin: 20px 0;
 }
+
 .roar {
     font-size: 80px;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 20px;
 }
+
 #bart {
     text-align: center;
     justify-content: center;
-    font-size: 80px;
+    font-size: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
 }
 
-/*Table*/
+.matrix-question {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f0e6d2;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.matrix-question p {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#pill-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#pill-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #F78105;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e67300;
+}
+
+/* Original cool-kid-table styling from the provided CSS */
 .cool-kid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.cool-kid-table thead th {
+    background-color: orange;
+    color: black;
+    padding: 12px;
+    text-align: left;
+}
+
+.cool-kid-table tbody td {
+    padding: 12px;
+    border: 1px solid black;
+}
+
+.cool-kid-table tbody tr:hover {
+    background-color: yellow;
+}
+
+/* Matrix pill effects */
+.pill-indicator {
+    font-size: 18px;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.blue-pill {
+    background-color: #0066cc;
+}
+
+.red-pill {
+    background-color: #cc0000;
+}
+
+#blue-facts {
+    display: none;
+}
+
+#red-facts {
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    #pill-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #pill-input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*Table*/
+/* .cool-kid-table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
@@ -122,18 +245,14 @@ img {
     background-color: orange;
     color: black;
 }
-.cool-kid-table td:hover, .cool-kid-table th:hover {
+.cool-kid-table td:hover {
     background-color: yellow;
     color: black;
 }
-.cool-kid-table tr,
-.cool-kid-table tr:nth-child(odd),
-.cool-kid-table tr:hover {
-    background-color: rgb(230, 200, 160) !important;
-}
+
 
 /*Pill Stuff*/
-table.red-pill-table td:first-child {
+/* table.red-pill-table td:first-child {
     font-weight: bold;
     background-color: rgb(230, 200, 160);
     color: #990000;
@@ -144,8 +263,29 @@ table.blue-pill-table td:first-child {
     color: #004085;
 }
 
+table.red-pill-table td:first-child {
+    font-weight: bold;
+    background-color: #ffcccc;
+    color: #990000;
+}
+body.dark-mode table.red-pill-table td:first-child {
+    background-color: #660000;
+    color: #ffcccc;
+}
+table.blue-pill-table td:first-child {
+    font-weight: bold;
+    background-color: #cce5ff;
+    color: #004085;
+}
+body.dark-mode table.blue-pill-table td:first-child {
+    background-color: #003366;
+    color: #cce5ff;
+} */
+
+
+
 /*Dark Mode Stuff*/
-body.dark-mode {
+/* body.dark-mode {
     background-color: black;
     color: white;
 }
@@ -155,13 +295,13 @@ body.dark-mode .cool-kid-table th {
     background-color: black;
     color: white;
     border: 1px solid white;
-}
+} */
 
-body.dark-mode #travel {
-    background-color: #2d014d; /* deep/dark purple */
-}
+/* body.dark-mode #travel {
+    background-color: #2d014d;} /* deep/dark purple */
 
-body.dark-mode .cool-kid-table thead th {
+
+/* body.dark-mode .cool-kid-table thead th {
     background-color: purple;
     color: white;
 }
@@ -183,10 +323,10 @@ body.dark-mode .cool-kid-table th:hover {
 
 body.dark-mode .conan {
     background-color: purple;
-}
+} */
 
 /*Travel Stuff*/
-#travel {
+/* #travel {
     margin: 40px auto;
     max-width: 1200px;
     padding: 20px;
@@ -215,20 +355,22 @@ body.dark-mode .conan {
     border-radius: 8px;
     margin-left: 40px;
     margin-right: 40px;
-}
+} */
 
 
 
 /*Forms and Butoons stuff*/
-#factQuestionForm {
+/* #factQuestionForm {
     text-align: center;
     margin: 30px 0;
 }
+
 #answerInput {
     padding: 8px;
     margin-right: 10px;
     font-size: 1em;
 }
+
 button {
     padding: 8px 16px;
     background-color: black;
@@ -240,12 +382,12 @@ button {
 }
 button:hover {
     background-color: #3367d6;
-}
+} */
 
 
 /*Cool kid stuff*/
-table.cool-kid-table {
-    width: 100%;
+/* table.cool-kid-table { */
+/* width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -265,42 +407,21 @@ table.cool-kid-table tr:hover {
 }
 body.dark-mode table.cool-kid-table tr:hover {
     background-color: #444;
-}
-
-
-/*Red pill blue pill*/
-table.red-pill-table td:first-child {
-    font-weight: bold;
-    background-color: #ffcccc;
-    color: #990000;
-}
-body.dark-mode table.red-pill-table td:first-child {
-    background-color: #660000;
-    color: #ffcccc;
-}
-table.blue-pill-table td:first-child {
-    font-weight: bold;
-    background-color: #cce5ff;
-    color: #004085;
-}
-body.dark-mode table.blue-pill-table td:first-child {
-    background-color: #003366;
-    color: #cce5ff;
-}
+} */
 
 
 /*The Dark Mode Button*/
-#modeToggleBtn {
+/* #modeToggleBtn {
     position: fixed;
     top: 20px;
     right: 20px;
-    z-index: 1000; /* keeps it above other elements */
-}
+    z-index: 1000; } /* keeps it above other elements */
 
 
-/*Pill titles*/ 
 
-.pill-title {
+/*Pill titles*/
+
+/* .pill-title {
     text-align: center;
     font-size: 1.5em;
     margin: 20px 0 10px;
@@ -322,4 +443,4 @@ body.dark-mode .red-pill-title {
 body.dark-mode .blue-pill-title {
     background-color: #003366;
     color: #cce5ff;
-}
+} */
