@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../html-boilerplate/Final Assignment/Test folder"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "csmc-final"
+	}
+}

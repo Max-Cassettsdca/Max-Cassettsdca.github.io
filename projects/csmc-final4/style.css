@@ -1,0 +1,375 @@
+/*the body and such*/
+body {
+  background-color: rgb(230, 200, 160);
+  margin: 0;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 60px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 40px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  margin-left: 50px;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  font-family: "Oswald", sans-serif;
+}
+
+.region li {
+  font-family: "Oswald", sans-serif;
+}
+
+/*Images*/
+img {
+  border: 5px solid black;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*flexbox stuff*/
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 100%;
+  max-width: 2000px;
+}
+
+.flexbox-item1 {
+  padding: 10px;
+  flex: 600px;
+  min-width: 100px;
+}
+
+/*Styling*/
+
+.maniac {
+  display: block;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.tom {
+  margin: 10px auto;
+  align-content: center;
+  text-align: center;
+}
+
+.conan {
+  border: none;
+  height: 100px;
+  background-color: #f78104;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.roar {
+  font-size: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+#bart {
+  text-align: center;
+  justify-content: center;
+  font-size: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+/* Matrix Question & Pill Input */
+.matrix-question {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.matrix-question p {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#pill-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#pill-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 200px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f78105;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e67300;
+}
+
+/* Matrix Pill Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#red-facts,
+#blue-facts {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+#red-facts {
+  display: block;
+  /* Initially visible */
+}
+
+#blue-facts {
+  display: none;
+  /* Initially hidden */
+}
+
+.pill-indicator {
+  font-size: 18px;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-family: "Oswald", sans-serif;
+}
+
+.blue-pill {
+  background-color: #0066cc;
+}
+
+.red-pill {
+  background-color: #cc0000;
+}
+
+/* Table Styles */
+.cool-kid-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.cool-kid-table thead th {
+  background-color: orange;
+  color: black;
+  padding: 12px;
+  text-align: left;
+}
+
+.cool-kid-table tbody td {
+  padding: 12px;
+  border: 1px solid black;
+}
+
+.cool-kid-table tbody tr:hover {
+  background-color: yellow;
+}
+
+.cool-kid-table,
+.cool-kid-table td,
+.cool-kid-table th {
+  background-color: rgb(230, 200, 160);
+  color: black;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.cool-kid-table thead th {
+  background-color: orange;
+  color: black;
+}
+
+.cool-kid-table td:hover {
+  background-color: yellow;
+  color: black;
+}
+
+/*Travel Stuff*/
+#travel {
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 20px;
+
+  border-radius: 12px;
+}
+
+#travel h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.travel-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.region {
+  flex: 1 1 250px;
+  min-width: 200px;
+  max-width: 350px;
+  padding: 15px;
+  border: 5px solid #555;
+  border-radius: 8px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: rgb(207, 207, 207);
+}
+
+.region h3 {
+  margin: 0;
+  padding: 1rem;
+  font-size: 35px;
+}
+
+/*The Dark Mode Button*/
+#modeToggleBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: black;
+  color: #f0f0f0;
+}
+
+.dark-mode p {
+  color: #e0e0e0;
+}
+
+.dark-mode h1,
+.dark-mode h3 {
+  color: white;
+}
+
+.dark-mode .conan {
+  background-color: purple;
+}
+
+.dark-mode img {
+  border-color: purple;
+}
+
+.dark-mode .cool-kid-table,
+.dark-mode .cool-kid-table td,
+.dark-mode .cool-kid-table th {
+  background-color: black;
+  color: #e0e0e0;
+  border: 1px solid #666;
+}
+
+.dark-mode .cool-kid-table thead th {
+  background-color: #8b4513;
+  color: #f0f0f0;
+}
+
+.dark-mode .cool-kid-table tbody tr:hover {
+  background-color: #555;
+}
+
+
+.dark-mode .region {
+  background-color: #333;
+}
+
+.dark-mode a {
+  color: red;
+}
+
+.dark-mode button {
+  background-color: purple;
+  color: white;
+}
+
+.dark-mode button:hover {
+  background-color: #e67300;
+}
+
+.dark-mode .matrix-question {
+  background-color: black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  #pill-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #pill-input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .roar {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
